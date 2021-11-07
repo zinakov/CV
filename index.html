@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zinakov CV</title>
+        <meta charset="UTF-8" /> <!-- кодировка -->
+    </head>
+        <body>
+            <img src="C:\Users\Алексей\Desktop\Сайты\Work\CV\image1.jpg" weight="100" height="200"/>
+            <h1>Алексей Зинаков</h1> <!-- Заголовок первого порядка -->
+            <p><em>Я <strong>финансовый эксперт</strong> БСПБ</em></p> <!-- Тег <em> делает шрифт "наклонным" -->
+            <p>Я люблю программировать</p>
+            <hr width="100%" color="red" size="3" />
+            <h2>Мои социальные сети</h2>
+            <ul type="square"> <!-- <ul> тег создания списка, есть три "маркера" списка: circle,disk,square -->
+                <li><a href="https://vk.com/zinakov97" target="_blank">Вконтакте</a></li> <!-- Тег <li> создает элемент списка -->
+                <li><a href="https://web.telegram.org/k/">Telegram</a></li> <!-- <a href="" добавялет кликабельную ссылку на HTML страницу> -->
+                <li><a href="https://www.instagram.com/" target="_blank">Instagramm</a></li>    
+            </ul>
+            <hr width="100%" color="red" size="1" />
+            <h2>Мои Хобби</h2>
+            <ol type="I"> <!-- нумерованный список, тип нумерации "Римские цифры" -->
+                <lI>Спорт</lI>
+                <li>Web разработка</li>
+            </ol>
+            <hr width="100%" color="red" size="1" />
+           <h3>Моя любимая музыка</h3>
+           <p>Саундтрек из сериала <strong>"Игра в Кальмара"</strong></p>
+           <audio controls> <!-- Добавляет панель управления к аудиофайлу. -->
+            <source src="C:\Users\Алексей\Desktop\Сайты\Work\CV\Music1.MP3" type="audio/ogg; codecs=vorbis"> <!-- тег src Указывает путь к воспроизводимому файлу. -->
+            <source src="C:\Users\Алексей\Desktop\Сайты\Work\CV\Music1.MP3" type="audio/mpeg">
+          </audio>
+          <hr width="100%" color="red" size="2" />
+        <h2>Опыт работы</h2>
+          <table border="1"> 
+             <thead>
+             <tr>
+                 <th>Компания</th>
+                 <th>Должность</th>
+                 <th>Год трудоустройства</th>
+             </tr>    
+            </thead>
+            <tbody>
+              <tr> 
+                  <td>БСПБ</td>
+                  <td>Финансовый Эксперт</td>
+                  <td>21.10.2018г.</td>
+              </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td>VRLF</td>
+                <td>Менеджер по продажам</td>
+                <td>15.05.2016г.</td>
+            </tr>
+        </tfoot>
+          </table>
+          <br />
+          <h2>Связаться со мной</h2>
+            <form>
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" placeholder="Начни вводить"> <!-- Атрибут <for> и <id> - работают в связке, что бы при клике на "Ваше имя" сразу данные вводились в поле для ввода -->>
+                   <br/>
+                    <label for="email">Ваш Email</label>
+                    <input type="email" id="email" placeholder="Начни вводить">
+                    <input type="submit" value="связаться"> <!-- По умолчанию текст кнопки "отправить", атрибут value помогает вводить любой текст -->
+            </form>
+        </body>
+
+</html> 
